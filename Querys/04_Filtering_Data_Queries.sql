@@ -1,6 +1,16 @@
-USE MyDatabase
+/* ============================================================================
+   File: 04_Filtering_Data_Queries.sql
+   Author: Youssef Hany
+   Description: Foundational SQL queries demonstrating data filtering techniques
+                using Comparison, Logical, Range, Membership, and Search operators.
+   Database: MyDatabase
+   ============================================================================ */
 
--- Comparion Operators
+USE MyDatabase;
+
+/* ============================================================================
+   SECTION 1: COMPARISON OPERATORS
+   ============================================================================ */
 
 -- Retrieve all customers from Germany
 SELECT *
@@ -32,7 +42,9 @@ SELECT *
 FROM customers
 WHERE score <= 500;
 
--- Logical Operators
+/* ============================================================================
+   SECTION 2: LOGICAL OPERATORS
+   ============================================================================ */
 
 /* Retrieve all customers who are from the USA
    AND have a score greater than 500 */
@@ -51,19 +63,24 @@ SELECT *
 FROM customers
 WHERE NOT score < 500;
 
--- Range Operator
+/* ============================================================================
+   SECTION 3: RANGE OPERATOR
+   ============================================================================ */
 
 /* Retrieve all customers whose score falls
    in the range between 100 and 500 */
 SELECT *
 FROM customers
 WHERE score BETWEEN 100 AND 500;
+
 -- OR
 SELECT *
 FROM customers
 WHERE score >= 100 AND score <= 500;
 
--- Membership Operator
+/* ============================================================================
+   SECTION 4: MEMBERSHIP OPERATOR
+   ============================================================================ */
 
 /* Retrieve all customers from
    either Germany or USA */
@@ -77,7 +94,9 @@ SELECT *
 FROM customers
 WHERE country NOT IN ('Germany', 'USA');
 
--- Search Operator
+/* ============================================================================
+   SECTION 5: SEARCH OPERATOR
+   ============================================================================ */
 
 /* Find all customers whose
    first name starts with 'M' */

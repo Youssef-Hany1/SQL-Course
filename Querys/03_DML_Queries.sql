@@ -1,19 +1,34 @@
+/* ============================================================================
+   File: 03_DML_Queries.sql
+   Author: Youssef Hany
+   Description: Foundational SQL DML (Data Manipulation Language) queries 
+                covering the insertion, updating, and deletion of data.
+   ============================================================================ */
+
+/* ============================================================================
+   SECTION 1: INSERTING DATA (INSERT)
+   ============================================================================ */
+
 -- Insert a new customers
 INSERT INTO customers (id, first_name, country, score)
 VALUES
-	(6, 'Youssef', 'Egypt', 800),
-	(7, 'Sam', NULL, 100);
+    (6, 'Youssef', 'Egypt', 800),
+    (7, 'Sam', NULL, 100);
 
 -- Copy data from customers table into persons
 INSERT INTO persons (id, person_name, birth_date, phone)
 SELECT
-	id,
-	first_name,
-	NULL,
-	'Unknown'
+    id,
+    first_name,
+    NULL,
+    'Unknown'
 FROM customers;
 
 SELECT * FROM persons;
+
+/* ============================================================================
+   SECTION 2: MODIFYING DATA (UPDATE)
+   ============================================================================ */
 
 -- Change the score of customer with ID 6 to 0
 UPDATE customers
@@ -35,12 +50,17 @@ UPDATE customers
 SET score = 0
 WHERE score IS NULL;
 
+/* ============================================================================
+   SECTION 3: REMOVING DATA (DELETE & TRUNCATE)
+   ============================================================================ */
+
 -- Delete all cusstomers with an ID greater than 5
 DELETE FROM customers
 WHERE id > 5;
 
 -- Delete all data from the persons table
 DELETE FROM persons
+
 -- OR
 TRUNCATE TABLE persons;
 
