@@ -22,10 +22,14 @@ This repository tracks my journey in mastering SQL, including setting up the dat
 *   **Performance Optimization:** Indexing (Clustered, Non-Clustered, Columnstore), analyzing Execution Plans, and SQL Hints.
 
 ## 🛠️ Real-World Projects
-As part of this course, I implemented three hands-on projects mimicking real industry tasks:
-1.  **Data Warehousing (ETL):** Building a data architecture (Bronze, Silver, Gold layers) and executing ETL processes.
-2.  **Exploratory Data Analysis (EDA):** Profiling data, discovering key metrics, and conducting magnitude/ranking analysis.
-3.  **Advanced Data Analytics:** Calculating moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using complex Window Functions.
+As part of this course, I implemented three hands-on projects mimicking real industry tasks. Each project has been organized into its own dedicated repository:
+
+1. 📁 [**sql-etl-data-warehouse**](https://github.com/Youssef-Hany1/sql-etl-data-warehouse)
+   **Data Warehousing (ETL):** Building a data architecture (Bronze, Silver, Gold layers) and executing ETL processes.
+2. 📁 [**sql-exploratory-data-analysis**](https://github.com/Youssef-Hany1/sql-exploratory-data-analysis)
+   **Exploratory Data Analysis (EDA):** Profiling data, discovering key metrics, and conducting magnitude/ranking analysis.
+3. 📁 [**sql-advanced-business-analytics**](https://github.com/Youssef-Hany1/sql-advanced-business-analytics)
+   **Advanced Data Analytics:** Calculating moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using complex Window Functions.
 
 ## 💻 Tech Stack
 *   **Database Engine:** Microsoft SQL Server
