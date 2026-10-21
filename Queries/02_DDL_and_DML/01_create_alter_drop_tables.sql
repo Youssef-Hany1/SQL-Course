@@ -1,5 +1,5 @@
 /* ============================================================================
-   File: 02_DDL_Queries.sql
+   File: 01_create_alter_drop_tables.sql
    Author: Youssef Hany
    Description: Foundational SQL DDL (Data Definition Language) queries covering 
                 the creation, alteration, and deletion of database tables.

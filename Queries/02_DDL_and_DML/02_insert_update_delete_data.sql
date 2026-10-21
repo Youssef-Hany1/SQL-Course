@@ -1,5 +1,5 @@
 /* ============================================================================
-   File: 03_DML_Queries.sql
+   File: 02_insert_update_delete_data.sql
    Author: Youssef Hany
    Description: Foundational SQL DML (Data Manipulation Language) queries 
                 covering the insertion, updating, and deletion of data.
