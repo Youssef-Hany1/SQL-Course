@@ -117,7 +117,6 @@ INSERT INTO Sales.Orders_Partitioned VALUES (2, '2024-07-20', 50);
 INSERT INTO Sales.Orders_Partitioned VALUES (3, '2025-12-31', 20);
 INSERT INTO Sales.Orders_Partitioned VALUES (4, '2026-01-01', 100);
 
-
 SELECT * FROM Sales.Orders_Partitioned;
 
 -- Query Test
