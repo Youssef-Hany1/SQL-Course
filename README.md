@@ -4,9 +4,11 @@ This repository contains my code, notes, and projects completed while taking the
 
 The course covers the full spectrum of SQL, starting from absolute basics and advancing to complex data engineering and data analytics concepts used in enterprise environments.
 
+---
 ## 🚀 Course Overview
 This repository tracks my journey in mastering SQL, including setting up the database environment (SQL Server Express & SSMS), writing optimized queries, and building real-world data projects.
 
+---
 ### 🧠 Key Topics Covered:
 *   **Database Fundamentals:** RDBMS concepts, tables, schemas, and data types.
 *   **DQL (Data Query Language):** `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, `DISTINCT`, and `TOP`.
@@ -21,6 +23,7 @@ This repository tracks my journey in mastering SQL, including setting up the dat
 *   **Advanced Techniques:** Subqueries, Common Table Expressions (CTEs), Views, Temporary Tables, Stored Procedures, and Triggers.
 *   **Performance Optimization:** Indexing (Clustered, Non-Clustered, Columnstore), analyzing Execution Plans, and SQL Hints.
 
+---
 ## 🛠️ Real-World Projects
 As part of this course, I implemented three hands-on projects mimicking real industry tasks. Each project has been organized into its own dedicated repository:
 
@@ -34,11 +37,20 @@ As part of this course, I implemented three hands-on projects mimicking real ind
 
    **Advanced Data Analytics:** Calculating moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using complex Window Functions.
 
+---
 ## 💻 Tech Stack
 *   **Database Engine:** Microsoft SQL Server
 *   **IDE:** SQL Server Management Studio (SSMS)
 *   **Language:** SQL
 
+---
 ## 👨‍🏫 Acknowledgments
 All course material, concepts, and structure are credited to **Baraa (Data with Baraa)**. 
 *   📺 [Watch the full course on YouTube](https://www.youtube.com/watch?v=SSKVgrwhzus)
+
+## 🤝 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/youssefhany1/)
+
+## 🌟 About me
+Hi, I'm **Youssef Ayad**. I engineer scalable Medallion pipelines and enterprise data warehouses. Today, I focus on full-stack data engineering: transforming raw infrastructure into clean, actionable insights through optimized SQL—layer by layer.
