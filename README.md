@@ -27,15 +27,12 @@ This repository tracks my journey in mastering SQL, including setting up the dat
 ## 🛠️ Real-World Projects
 As part of this course, I implemented three hands-on projects mimicking real industry tasks. Each project has been organized into its own dedicated repository:
 
-1. 📁 [**sql-etl-data-warehouse**](https://github.com/Youssef-Hany1/sql-etl-data-warehouse)
+1. 📁 [**sql-etl-data-warehouse-project**](https://github.com/Youssef-Hany1/sql-etl-data-warehouse-project)
 
    **Data Warehousing (ETL):** Building a data architecture (Bronze, Silver, Gold layers) and executing ETL processes.
-3. 📁 [**sql-exploratory-data-analysis**](https://github.com/Youssef-Hany1/sql-exploratory-data-analysis)
+3. 📁 [**end-to-end-sql-analytics-project**](https://github.com/Youssef-Hany1/end-to-end-sql-analytics-project)
 
-   **Exploratory Data Analysis (EDA):** Profiling data, discovering key metrics, and conducting magnitude/ranking analysis.
-5. 📁 [**sql-advanced-business-analytics**](https://github.com/Youssef-Hany1/sql-advanced-business-analytics)
-
-   **Advanced Data Analytics:** Calculating moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using complex Window Functions.
+   **Exploratory & Advanced Data Analytics:** Profiling data and discovering key metrics, progressing into complex business intelligence calculations like moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using advanced Window Functions.
 
 ---
 ## 💻 Tech Stack
