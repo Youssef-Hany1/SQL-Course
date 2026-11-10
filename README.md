@@ -9,6 +9,11 @@ The course covers the full spectrum of SQL, starting from absolute basics and ad
 This repository tracks my journey in mastering SQL, including setting up the database environment (SQL Server Express & SSMS), writing optimized queries, and building real-world data projects.
 
 ---
+## 📝 Notion Notes
+My complete course notes are organized on Notion:
+- 📘 [SQL Masterclass: Data Engineering & Analytics](https://app.notion.com/p/SQL-Masterclass-Data-Engineering-Analytics-2d7578a1319580178e82c198a62018d8)
+
+---
 ### 🧠 Key Topics Covered:
 *   **Database Fundamentals:** RDBMS concepts, tables, schemas, and data types.
 *   **DQL (Data Query Language):** `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, `DISTINCT`, and `TOP`.
@@ -25,14 +30,19 @@ This repository tracks my journey in mastering SQL, including setting up the dat
 
 ---
 ## 🛠️ Real-World Projects
-As part of this course, I implemented three hands-on projects mimicking real industry tasks. Each project has been organized into its own dedicated repository:
+As part of this course, I implemented three hands-on projects mimicking real industry tasks. Each project has been organized into its own dedicated repository, with matching notes on Notion:
 
 1. 📁 [**sql-etl-data-warehouse-project**](https://github.com/Youssef-Hany1/sql-etl-data-warehouse-project)
 
-   **Data Warehousing (ETL):** Building a data architecture (Bronze, Silver, Gold layers) and executing ETL processes.
-3. 📁 [**end-to-end-sql-analytics-project**](https://github.com/Youssef-Hany1/end-to-end-sql-analytics-project)
+   **Project 1 – Data Warehousing (ETL):** Building a data architecture (Bronze, Silver, Gold layers) and executing ETL processes.
 
-   **Exploratory & Advanced Data Analytics:** Profiling data and discovering key metrics, progressing into complex business intelligence calculations like moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using advanced Window Functions.
+   📝 [Notion notes: Project 1 – Data Warehousing & ETL Architecture](https://app.notion.com/p/Project-1-Data-Warehousing-ETL-Architecture-3ff578a1319580c28e8efca5357e9bac)
+
+2. 📁 [**end-to-end-sql-analytics-project**](https://github.com/Youssef-Hany1/end-to-end-sql-analytics-project)
+
+   **Projects 2 & 3 – Exploratory & Advanced Data Analytics:** Profiling data and discovering key metrics, progressing into complex business intelligence calculations like moving averages, running totals, customer retention, and year-over-year (YoY) performance tracking using advanced Window Functions.
+
+   📝 [Notion notes: Projects 2 & 3 – Exploratory Data Analysis & Advanced Business Analytics](https://app.notion.com/p/Project-2-3-Exploratory-Data-Analysis-Advanced-Business-Analytics-3ff578a1319580a0a236e1001375ccf9)
 
 ---
 ## 💻 Tech Stack
